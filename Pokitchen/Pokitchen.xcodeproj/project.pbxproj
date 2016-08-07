@@ -320,6 +320,7 @@
 		84436CB61D54700D0015B181 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84436CB41D54700D0015B181 /* FriendCell.xib */; };
 		84436CB91D5488C20015B181 /* RelateDishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84436CB71D5488C20015B181 /* RelateDishCell.swift */; };
 		84436CBA1D5488C20015B181 /* RelateDishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84436CB81D5488C20015B181 /* RelateDishCell.xib */; };
+		84436CBE1D575C7F0015B181 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84436CBD1D575C7F0015B181 /* TestViewController.swift */; };
 		8451830B1D4EDFAE007F0EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451830A1D4EDFAE007F0EF7 /* AppDelegate.swift */; };
 		8451830D1D4EDFAE007F0EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451830C1D4EDFAE007F0EF7 /* ViewController.swift */; };
 		845183101D4EDFAE007F0EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8451830E1D4EDFAE007F0EF7 /* Main.storyboard */; };
@@ -723,6 +724,7 @@
 		84436CB41D54700D0015B181 /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
 		84436CB71D5488C20015B181 /* RelateDishCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelateDishCell.swift; sourceTree = "<group>"; };
 		84436CB81D5488C20015B181 /* RelateDishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelateDishCell.xib; sourceTree = "<group>"; };
+		84436CBD1D575C7F0015B181 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		845183071D4EDFAE007F0EF7 /* Pokitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8451830A1D4EDFAE007F0EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8451830C1D4EDFAE007F0EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -778,6 +780,7 @@
 				84133FF51D4EE3E800B214D5 /* BaseRequest.swift */,
 				841342901D4EF26D00B214D5 /* Config.swift */,
 				841342931D4EF74800B214D5 /* BridgeHeader.h */,
+				84436CBD1D575C7F0015B181 /* TestViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1916,6 +1919,7 @@
 				8413425C1D4EE3E900B214D5 /* MJRefreshFooter.m in Sources */,
 				8413426B1D4EE3E900B214D5 /* UIView+MJExtension.m in Sources */,
 				8413428B1D4EE59D00B214D5 /* CourseViewController.swift in Sources */,
+				84436CBE1D575C7F0015B181 /* TestViewController.swift in Sources */,
 				841342781D4EE3E900B214D5 /* UIImage+GIF.m in Sources */,
 				841342691D4EE3E900B214D5 /* UIScrollView+MJExtension.m in Sources */,
 				84436CB91D5488C20015B181 /* RelateDishCell.swift in Sources */,
