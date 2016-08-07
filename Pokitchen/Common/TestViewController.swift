@@ -9,10 +9,17 @@
 import UIKit
 
 class TestViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let a = 10
+        print("%ld",a)
+        
+        //这次我们测试删除吧
+        print("有机会一起敲代码啊")
+        
+        
         // Do any additional setup after loading the view.
     }
 

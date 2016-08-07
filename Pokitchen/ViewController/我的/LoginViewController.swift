@@ -23,6 +23,7 @@ class LoginViewController: UIViewController {
         
         self.passwordField.secureTextEntry = true
     }
+    //总觉得哪里不对啊
 
     @IBAction func backToPreView(sender: AnyObject) {
         
