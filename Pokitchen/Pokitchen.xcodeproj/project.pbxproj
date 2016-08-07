@@ -281,8 +281,6 @@
 		841342691D4EE3E900B214D5 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 841341331D4EE3E900B214D5 /* UIScrollView+MJExtension.m */; };
 		8413426A1D4EE3E900B214D5 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 841341351D4EE3E900B214D5 /* UIScrollView+MJRefresh.m */; };
 		8413426B1D4EE3E900B214D5 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 841341371D4EE3E900B214D5 /* UIView+MJExtension.m */; };
-		8413426C1D4EE3E900B214D5 /* MLTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413413A1D4EE3E900B214D5 /* MLTransitionAnimation.m */; };
-		8413426D1D4EE3E900B214D5 /* UIViewController+MLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413413C1D4EE3E900B214D5 /* UIViewController+MLTransition.m */; };
 		8413426E1D4EE3E900B214D5 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413413F1D4EE3E900B214D5 /* MKAnnotationView+WebCache.m */; };
 		8413426F1D4EE3E900B214D5 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 841341411D4EE3E900B214D5 /* NSData+ImageContentType.m */; };
 		841342701D4EE3E900B214D5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 841341431D4EE3E900B214D5 /* SDImageCache.m */; };
@@ -665,10 +663,6 @@
 		841341351D4EE3E900B214D5 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		841341361D4EE3E900B214D5 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		841341371D4EE3E900B214D5 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		841341391D4EE3E900B214D5 /* MLTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransitionAnimation.h; sourceTree = "<group>"; };
-		8413413A1D4EE3E900B214D5 /* MLTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransitionAnimation.m; sourceTree = "<group>"; };
-		8413413B1D4EE3E900B214D5 /* UIViewController+MLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MLTransition.h"; sourceTree = "<group>"; };
-		8413413C1D4EE3E900B214D5 /* UIViewController+MLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MLTransition.m"; sourceTree = "<group>"; };
 		8413413E1D4EE3E900B214D5 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		8413413F1D4EE3E900B214D5 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		841341401D4EE3E900B214D5 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -1073,7 +1067,6 @@
 				841340EC1D4EE3E900B214D5 /* JSONModel */,
 				841341061D4EE3E900B214D5 /* MBProgressHUD */,
 				8413410B1D4EE3E900B214D5 /* MJRefresh */,
-				841341381D4EE3E900B214D5 /* MLTransition */,
 				8413413D1D4EE3E900B214D5 /* SDWebImage */,
 			);
 			path = ThirdLibrary;
@@ -1252,17 +1245,6 @@
 				8413412D1D4EE3E900B214D5 /* MJRefreshStateHeader.m */,
 			);
 			path = Header;
-			sourceTree = "<group>";
-		};
-		841341381D4EE3E900B214D5 /* MLTransition */ = {
-			isa = PBXGroup;
-			children = (
-				841341391D4EE3E900B214D5 /* MLTransitionAnimation.h */,
-				8413413A1D4EE3E900B214D5 /* MLTransitionAnimation.m */,
-				8413413B1D4EE3E900B214D5 /* UIViewController+MLTransition.h */,
-				8413413C1D4EE3E900B214D5 /* UIViewController+MLTransition.m */,
-			);
-			path = MLTransition;
 			sourceTree = "<group>";
 		};
 		8413413D1D4EE3E900B214D5 /* SDWebImage */ = {
@@ -1849,7 +1831,6 @@
 				8413424F1D4EE3E900B214D5 /* JSONModelClassProperty.m in Sources */,
 				8451830B1D4EDFAE007F0EF7 /* AppDelegate.swift in Sources */,
 				841342551D4EE3E900B214D5 /* JSONKeyMapper.m in Sources */,
-				8413426D1D4EE3E900B214D5 /* UIViewController+MLTransition.m in Sources */,
 				8413425F1D4EE3E900B214D5 /* MJRefreshAutoNormalFooter.m in Sources */,
 				84D432031D5098B60036ED20 /* TagViewController.swift in Sources */,
 				841342651D4EE3E900B214D5 /* MJRefreshNormalHeader.m in Sources */,
@@ -1915,7 +1896,6 @@
 				8413427D1D4EE3E900B214D5 /* UIView+WebCacheOperation.m in Sources */,
 				847212481D5039830081EE24 /* MD5Tool.swift in Sources */,
 				846EA6671D51D66700BBB316 /* TalentCell.swift in Sources */,
-				8413426C1D4EE3E900B214D5 /* MLTransitionAnimation.m in Sources */,
 				8413425C1D4EE3E900B214D5 /* MJRefreshFooter.m in Sources */,
 				8413426B1D4EE3E900B214D5 /* UIView+MJExtension.m in Sources */,
 				8413428B1D4EE59D00B214D5 /* CourseViewController.swift in Sources */,
