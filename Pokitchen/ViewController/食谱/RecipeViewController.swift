@@ -13,7 +13,7 @@ import AVFoundation
 class RecipeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     var categoryArray = NSMutableArray()//存放分类
     var dataArray = NSMutableArray()//存放食谱
-    
+    /***啊哈哈哈哈，这是测试git玩的，我开心就行了**/
     
     lazy var adView:XTADScrollView = {
        
