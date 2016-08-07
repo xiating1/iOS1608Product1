@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//哈哈，我是来捣乱的
 class BaseRequest{
     
     class func getWithURL(url:String!,para:NSDictionary?,callBack:(data:NSData?,error:NSError?)->Void)->Void
